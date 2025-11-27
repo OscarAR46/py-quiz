@@ -1,7 +1,7 @@
-# Question class - blueprint for individual quiz questions
+# Question class
 # '_' Used to indicate internal attributes accessed via getters not directly from outside the class
 
-class Question:
+class Question():
     
     def __init__(self, topic, question_text, answer):
         # Store the three pieces of data as instance variables
