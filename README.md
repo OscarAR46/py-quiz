@@ -10,7 +10,8 @@ CURRENTLY BUILDING OUT AND SCAFFOLDING ONLY
 multiple users and saves each users attempts, name etc
 - user class finalised which stores user name, stores ALL quiz attempts, counts attempts, adds new attempts, calculates
 best and worst performances (sep methods) and calculates a total avg of thier performances
-- Next step allow persistence for user data to not reset when system is reset (CSV)
+- Persistence for user data achieved - will not reset when system is reset (CSV)
+- Next step = system.py finalisation
 
 ## Features
 

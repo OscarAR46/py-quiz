@@ -63,3 +63,42 @@ class User():
             total += self._calculate_percentage(attempt)
         average = total / len(self._attempts)
         return average
+    
+# Save user func (on class level of user) to write user data to user_data.csv
+def save_users(users_dict):
+    with open("user_data.csv", "w") as file: # Need for file overwrite so "w" each time. Fresh data > appedning
+        # Write header row
+        file.write("username,date,score,total_questions,topic\n")
+        # Loop through each user
+        for username in users_dict:
+            user = users_dict[username]
+            # Loop through each attempt for this user
+            for attempt in user.get_attempts():
+                line = f"{username},{attempt['date']},{attempt['score']},{attempt['total_questions']},{attempt['topic']}\n"
+                file.write(line)
+
+# Load all users from csv (also on class level as a func, not method)
+def load_users():
+    users_dict = {}
+    try:
+        with open("user_data.csv", "r") as file:
+            lines = file.readlines()
+            # Skip header row, start from index 1
+            for line in lines[1:]:
+                line = line.strip()
+                if line:  # Skip empty lines
+                    parts = line.split(",")
+                    username = parts[0]
+                    date = parts[1]
+                    score = int(parts[2])
+                    total_questions = int(parts[3])
+                    topic = parts[4]
+                    # Check if user already exists in dictionary
+                    if username not in users_dict:
+                        users_dict[username] = User(username)
+                    # Add this attempt to the user
+                    users_dict[username].add_attempt(score, total_questions, topic, date)
+    except FileNotFoundError:
+        # First time running (no file exists yet) return empty dictionary
+        pass
+    return users_dict
