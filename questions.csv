@@ -1,13 +1,81 @@
 topic,question,answer
-Sport,Placeholder sport question 1,placeholder answer
-Sport,Placeholder sport question 2,placeholder answer
-Sport,Placeholder sport question 3,placeholder answer
-History,Placeholder history question 1,placeholder answer
-History,Placeholder history question 2,placeholder answer
-History,Placeholder history question 3,placeholder answer
-Geography,Placeholder geography question 1,placeholder answer
-Geography,Placeholder geography question 2,placeholder answer
-Geography,Placeholder geography question 3,placeholder answer
-Science,Placeholder science question 1,placeholder answer
-Science,Placeholder science question 2,placeholder answer
-Science,Placeholder science question 3,placeholder answer
+Sport,How many players are on a football team on the field,11
+Sport,What is the name of the tennis tournament held in London every summer,Wimbledon
+Sport,What type of football is played in the NFL,American
+Sport,How many years are between each Summer Olympics,4
+Sport,Which American sport uses a bat and ball,Baseball
+Sport,Which sport uses the term love for a score of zero,Tennis
+Sport,How many points is a touchdown worth in American football,6
+Sport,What is the name of the professional basketball league in America,NBA
+Sport,In which sport do you hit a ball into a hole with a club,Golf
+Sport,How many balls are used in a game of pool,16
+Sport,What is the most popular sport in the world,Football
+Sport,What is the 10-event track and field competition called,Decathlon
+Sport,What sport uses a puck on ice,Hockey
+Sport,What is the standard shape of a football,Sphere
+Sport,What does KO stand for in boxing,Knockout
+Sport,Which country did Rugby originate from,England
+Sport,In which sport does a batter get three strikes,Baseball
+Sport,How many holes are on a standard golf course,18
+Sport,Which country won the 2014 FIFA World Cup,Germany
+Sport,A marathon is how many miles (number only),26.2
+History,In what year did World War 2 end,1945
+History,In what year did World War 2 start,1939
+History,What was the surname of the Nazi leader of Germany,Hitler
+History,What was the surname of Britain's Prime Minister during World War 2,Churchill
+History,What was the name of the ship that sank in 1912,Titanic
+History,World War 2 was preceded by World War ___,1
+History,What number was the most recent World War,2
+History,What was the war between Parliament and the King called,Civil War
+History,What was the time of knights and castles called,Medieval
+History,What was the rebirth period of art and learning called,Renaissance
+History,What was the series of wars to capture the Holy Land called,Crusades
+History,What was the deadly disease in the 1300s called,Plague
+History,What was the name of the document limiting the king's power in 1215,Magna Carta
+History,What was the first name of the English king who had six wives,Henry
+History,What was the surname of the famous nurse Florence in the Crimean War,Nightingale
+History,What was the surname of the scientist who discovered penicillin,Fleming
+History,What was the surname of the explorer who reached America in 1492,Columbus
+History,What was the surname of the first man on the Moon,Armstrong
+History,What was the ancient empire with gladiators called,Rome
+History,What ancient people built the pyramids,Egyptians
+Geography,What is the name of the tallest mountain - Mount ___,Everest
+Geography,Which country has the largest population in the world,China
+Geography,How many continents are there,7
+Geography,The ___ is the longest river in the world,Nile
+Geography,The ___ Ocean is the largest on Earth,Pacific
+Geography,In which country is the Eiffel Tower located,France
+Geography,What is the capital city of Canada,Ottawa
+Geography,Which country is the largest by land area,Russia
+Geography,What is the imaginary line around the middle of Earth called,Equator
+Geography,Which continent is located in all four hemispheres,Africa
+Geography,The ___ River flows through the Grand Canyon,Colorado
+Geography,Which Italian city is famous for its canals,Venice
+Geography,Which country is called the Land of the Rising Sun,Japan
+Geography,Great Britain is part of which continent,Europe
+Geography,What is the largest of the five Great Lakes,Superior
+Geography,In which country is the Taj Mahal located,India
+Geography,What is the world's largest island,Greenland
+Geography,Which pole is colder - North or South,South
+Geography,The USA shares its longest border with which country,Canada
+Geography,In which country is Machu Picchu located,Peru
+Science,What is the chemical formula for the gas plants absorb,CO2
+Science,What gas do plants release during photosynthesis,Oxygen
+Science,What is the main gas in Earth's atmosphere,Nitrogen
+Science,What is the chemical symbol for water,H2O
+Science,What is the pH of a neutral solution,7
+Science,What force pulls objects toward Earth,Gravity
+Science,What is the unit of force,Newton
+Science,What is the unit of energy,Joule
+Science,What is the unit of electric current,Ampere
+Science,What is the unit of potential difference,Volt
+Science,What is the process of liquid turning into gas called,Evaporation
+Science,What is the process of gas turning into liquid called,Condensation
+Science,What type of change makes a new substance,Chemical
+Science,What do we call a substance with pH less than 7,Acid
+Science,What do we call a substance with pH more than 7,Alkali
+Science,What organ pumps blood around the body,Heart
+Science,What is the smallest unit of life called,Cell
+Science,What molecule carries genetic information,DNA
+Science,What is the process of cell division for growth called,Mitosis
+Science,What process do plants use to make glucose,Photosynthesis
