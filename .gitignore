@@ -1,1 +1,4 @@
 README2.md
+# Below added in case of testing and local data definitly not being included
+user_data.csv
+__pycache__/
